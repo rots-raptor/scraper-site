@@ -3,7 +3,7 @@ Hello, through this code, you can save photos of a specific series of cars on th
 
 
 without docker
-(only tested on rockylinux 9+
+(only tested on rockylinux 9)
 ```bash
 sudo dnf install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -y
 pip install -r requirements.txt
