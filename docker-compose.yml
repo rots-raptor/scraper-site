@@ -1,0 +1,12 @@
+services:
+  scraper:
+    image: scraper:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: scraper-container
+    volumes:
+      - ./dataset:/app/dataset
+    working_dir: /app
+    stdin_open: true
+    tty: true
